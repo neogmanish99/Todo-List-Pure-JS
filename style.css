@@ -70,6 +70,12 @@ button{
     border-radius: 8px;
 }
 
+@media(max-width: 400px){
+    #todo{
+        margin: 75px auto;
+    }
+}
+
 #todo .todo-list h1,p{
     text-align: center;
 }
@@ -84,7 +90,7 @@ form .form-group{
 
 form .form-group i{
     padding-left: 5px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #todo .todo-list .form-group input{
@@ -92,6 +98,13 @@ form .form-group i{
     height:35px;
     /* border-radius: 5px; */
     border: none;
+    border-radius: 5px;
+    /* border: dotted 1px #ff6a95; */
+}
+
+#todo .todo-list .form-group input:focus{
+    outline: none;
+    border-color: #ff6a95;
 }
 
 /* list items */
