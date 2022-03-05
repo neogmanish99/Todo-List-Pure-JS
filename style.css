@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #202142;
+color: #fff;
+line-height: 1.6;
+}
+
+/* Utility classes */
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+i{
+    color: #333;
+}
+.container {
+    width: 310px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+button{
+    /* display: inline-block; */
+    border: none;
+    background-color:#fff;
+}
+.btn-primary{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    padding:5px 12px;
+}
+
+/* Navbar */
+#nav{
+    
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+}
+
+#nav #head{
+    text-align: center;
+    width: 210px;
+    margin: 0 auto;
+    padding: 4px 0;
+    color: #ff6a95;
+}
+
+/* todo items */
+
+#todo{
+    
+    padding: 10px;
+    max-width: 350px;
+    margin: 150px auto;
+    color: #333;
+    background-color:rgb(255, 255, 255);
+    border:none;
+    border-radius: 8px;
+}
+
+#todo .todo-list h1,p{
+    text-align: center;
+}
+
+/* todo input */
+
+form .form-group{
+    padding: 15px 0px;
+    width: 98%;
+    display:flex;
+}
+
+form .form-group i{
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#todo .todo-list .form-group input{
+    width:90%;
+    height:35px;
+    /* border-radius: 5px; */
+    border: none;
+}
+
+/* list items */
+
+.collection .list{
+    list-style: none;
+    width: 98%;
+    display: inline-block;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    text-align: center;
+    /* background-color:yellow; */
+    align-items: center;
+    padding-left: 2px;
+}
+
+.collection .list a{
+    display: inline-block;
+    /* background-color:red; */
+    /* border-radius: 50%; */
+    padding: 5px 8px;
+}
+.collection .list i{
+    font-size: 18px;
+}
+
+
+.collection .list a i:hover{
+    font-size: 20px;
+    color: red
+}
